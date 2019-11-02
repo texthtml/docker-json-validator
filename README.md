@@ -6,5 +6,5 @@ It uses [justinrainbow/json-schema](https://github.com/justinrainbow/json-schema
 ## Usage
 
 ```
-docker run -v /path/to/json/files/:/scripts/ texthtml/json-validator json-validator /scripts/path/to/document.json
+docker run -v /path/to/json/files/:/scripts/ texthtml/json-validator validate-json /scripts/data.json /scripts/schema.json
 ```
