@@ -1,6 +1,6 @@
 FROM php:7-alpine
 
-ENV VERSION 5.1.0
+ENV VERSION 5.2.9
 
 RUN curl https://codeload.github.com/justinrainbow/json-schema/tar.gz/$VERSION | tar xz -C /var/lib/
 
