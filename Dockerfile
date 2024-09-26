@@ -1,4 +1,4 @@
-FROM php:7-alpine
+FROM php:8-alpine
 
 ENV VERSION 5.2.9
 
